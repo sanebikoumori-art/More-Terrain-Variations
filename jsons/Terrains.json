@@ -1,5 +1,34 @@
 [
     {
-        
+		"name": "Flowerland",
+		"type": "Land",
+		"food": 2,
+		"movementCost": 1,
+        "RGB": [0, 163, 0],
+        "uniques": ["Occurs at temperature between [-0.4] and [0.1] and humidity between [0.2] and [0.4]"]
+    },
+    {
+		"name": "Autumnland",
+		"type": "Land",
+		"food": 2,
+		"movementCost": 1,
+        "RGB": [0, 163, 0],
+        "uniques": ["Occurs at temperature between [-0.4] and [0.1] and humidity between [0.2] and [0.4]"]
+    },
+    {
+		"name": "Rockland",
+		"type": "Land",
+		"food": 2,
+		"movementCost": 1,
+        "RGB": [0, 163, 0],
+        "uniques": ["Occurs at temperature between [-0.4] and [0.1] and humidity between [0.2] and [0.4]"]
+    },
+    {
+		"name": "Ancientland",
+		"type": "Land",
+		"food": 2,
+		"movementCost": 1,
+        "RGB": [0, 163, 0],
+        "uniques": ["Occurs at temperature between [-0.4] and [0.1] and humidity between [0.2] and [0.4]"]
     }
 ]
