@@ -4,7 +4,7 @@
 		"type": "Land",
 		"food": 2,
 		"movementCost": 1,
-        "RGB": [0, 163, 0],
+        "RGB": [249, 252, 174],
         "uniques": [
 			"Occurs at temperature between [0.6] and [0.8] and humidity between [0.5] and [0.8]",
 			"Occurs at temperature between [0.5] and [0.6] and humidity between [0.5] and [0.8]",
@@ -17,7 +17,7 @@
 		"food": 1,
 		"production": 1,
 		"movementCost": 1,
-        "RGB": [0, 163, 0],
+        "RGB": [249, 23, 32],
         "uniques": [
 			"Occurs at temperature between [-0.2] and [0.2] and humidity between [0.2] and [0.4]",
 			"Occurs at temperature between [-0.3] and [0.3] and humidity between [0.4] and [0.6]",
@@ -29,8 +29,10 @@
 		"type": "Land",
 		"production": 1,
 		"movementCost": 1,
-        "RGB": [0, 163, 0],
+        "RGB": [158, 140, 131],
+		"defenceBonus": 0.1,
         "uniques": [
+			"Rough terrain",
 			"Occurs at temperature between [-0.6] and [-0.1] and humidity between [0.1] and [0.2]",
 			"Occurs at temperature between [-0.9] and [-0.6] and humidity between [0.1] and [0.3]",
 			"Occurs at temperature between [-0.9] and [-0.6] and humidity between [0.1] and [0.3]",
@@ -44,7 +46,7 @@
 		"type": "Land",
 		"food": 2,
 		"movementCost": 1,
-        "RGB": [0, 163, 0],
+        "RGB": [50, 140, 114],
         "uniques": [
 			"Occurs at temperature between [0.3] and [0.4] and humidity between [0.2] and [0.4]",
 			"Occurs at temperature between [0.5] and [0.7] and humidity between [0.4] and [0.5]",
@@ -57,7 +59,7 @@
 		"type": "Land",
 		"food": 2,
 		"movementCost": 1,
-        "RGB": [0, 163, 0],
+        "RGB": [136, 190, 204],
         "uniques": [
 			"Occurs at temperature between [-0.1] and [0.2] and humidity between [0.7] and [0.9]",
 			"Occurs at temperature between [-0.1] and [0.4] and humidity between [0.6] and [0.7]",
@@ -135,5 +137,22 @@
 			"Considered [Desirable] when determining start locations <in all except [Grassland] Regions>",
 			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource."
 		]
+	},
+	//Ocean
+	{
+		"name": "Ocean",
+		"type": "Water",
+		"food": 1,
+		"gold": 1,
+		"movementCost": 1,
+		"RGB": [43, 87, 151],
+		"uniques":["Becomes [Ocean] when adjacent to [Coast]","Becomes [Abyss] when adjacent to [Ocean]"]
+	},
+	{
+		"name": "Abyss",
+		"type": "Water",
+		"gold": 2,
+		"movementCost": 1,
+		"RGB": [6, 38, 85]
 	}
 ]
