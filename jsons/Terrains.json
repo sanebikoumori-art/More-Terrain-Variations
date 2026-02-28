@@ -39,7 +39,7 @@
 		"food": 2,
 		"movementCost": 1,
         "RGB": [0, 163, 0],
-        "uniques": ["Occurs at temperature between [-0.4] and [0.1] and humidity between [0.9] and [1.0]"]
+        "uniques": ["Occurs at temperature between [-1.0] and [1.0] and humidity between [0.9] and [1.0]"]
 	},
 	//feature
 	{
