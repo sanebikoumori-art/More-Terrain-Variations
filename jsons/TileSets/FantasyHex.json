@@ -1,0 +1,11 @@
+{
+    "useColorAsBaseTerrain": "false",
+    "fallbackTileSet": null,
+    "ruleVariants": {
+      "Flowerland+Forest": ["Flowerland","Floweringforest"],
+      "Autumnland+Forest": ["Autumnland","Autumnforest"],
+      "Rockland+Forest": ["Rockland","Rockforest"],
+      "Ancientland+Forest": ["Ancientland","Ancientforest"],
+      "Aquarium+Forest": ["Aquarium","Kelpforest"],
+    }
+}
