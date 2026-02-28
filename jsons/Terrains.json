@@ -7,7 +7,10 @@
         "RGB": [0, 163, 0],
         "uniques": [
 		"Occurs at temperature between [-0.4] and [0.4] and humidity between [0.2] and [0.4]",
-		"Occurs at temperature between [-0.4] and [0.7] and humidity between [0.4] and [0.5]"]
+		"Occurs at temperature between [-0.4] and [0.7] and humidity between [0.4] and [0.5]",
+		"Occurs at temperature between [0.4] and [0.5] and humidity between [0.5] and [0.6]",
+		"Occurs at temperature between [0.3] and [0.5] and humidity between [0.6] and [0.7]"
+		]
     },
     {
 		"name": "Autumnland",
@@ -15,7 +18,11 @@
 		"food": 2,
 		"movementCost": 1,
         "RGB": [0, 163, 0],
-        "uniques": ["Occurs at temperature between [-0.4] and [0.1] and humidity between [0.2] and [0.4]"]
+        "uniques": [
+			"Occurs at temperature between [-0.2] and [0.2] and humidity between [0.2] and [0.4]",
+			"Occurs at temperature between [-0.3] and [0.3] and humidity between [0.4] and [0.6]",
+			"Occurs at temperature between [-0.4] and [0.4] and humidity between [0.5] and [0.8]",
+		]
     },
     {
 		"name": "Rockland",
@@ -23,7 +30,10 @@
 		"food": 2,
 		"movementCost": 1,
         "RGB": [0, 163, 0],
-        "uniques": ["Occurs at temperature between [-0.4] and [0.1] and humidity between [0.2] and [0.4]"]
+        "uniques": [
+			"Occurs at temperature between [-0.6] and [-0.1] and humidity between [0.1] and [0.2]",
+			"Occurs at temperature between [-0.9] and [-0.6] and humidity between [0.1] and [0.3]"
+		]
     },
     {
 		"name": "Ancientland",
@@ -31,7 +41,11 @@
 		"food": 2,
 		"movementCost": 1,
         "RGB": [0, 163, 0],
-        "uniques": ["Occurs at temperature between [-0.4] and [0.1] and humidity between [0.2] and [0.4]"]
+        "uniques": [
+			"Occurs at temperature between [0.6] and [0.8] and humidity between [0.5] and [0.8]",
+			"Occurs at temperature between [0.5] and [0.6] and humidity between [0.5] and [0.8]",
+			"Occurs at temperature between [0.3] and [0.5] and humidity between [0.5] and [0.8]"
+		]
 	},
 	{
 		"name": "Aquarium",
@@ -39,7 +53,10 @@
 		"food": 2,
 		"movementCost": 1,
         "RGB": [0, 163, 0],
-        "uniques": ["Occurs at temperature between [-1.0] and [1.0] and humidity between [0.9] and [1.0]"]
+        "uniques": [
+			"Occurs at temperature between [-0.1] and [0.2] and humidity between [0.7] and [0.9]",
+			"Occurs at temperature between [-0.4] and [-0.1] and humidity between [0.8] and [0.9]"
+		]
 	},
 	//feature
 	{
