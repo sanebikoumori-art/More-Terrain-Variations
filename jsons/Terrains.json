@@ -30,5 +30,51 @@
 		"movementCost": 1,
         "RGB": [0, 163, 0],
         "uniques": ["Occurs at temperature between [-0.4] and [0.1] and humidity between [0.2] and [0.4]"]
-    }
+	},
+	//feature
+	{
+		"name": "Hill",
+		"type": "TerrainFeature",
+		"production": 2,
+		"movementCost": 2,
+		"overrideStats": true,
+		"defenceBonus": 0.25,
+		"RGB": [105,125,72],
+		"occursOn": ["Tundra","Plains","Grassland","Desert","Snow","Flowerland","Autumnland","Rockland","Ancientland"],
+		"uniques": ["Rough terrain",
+					"[+5] Strength for cities built on this terrain",
+					"Has an elevation of [1] for visibility calculations",
+					"Occurs in groups around high elevations",
+					"[+1] to Fertility for Map Generation",
+					"A Region is formed with at least [40]% [Hill] tiles, with priority [5]",
+					"Base Terrain on this tile is not counted for Region determination",
+					"Starts in regions of this type receive an extra [Sheep]",
+					"Considered [Desirable] when determining start locations",
+					"Considered [Production] when determining start locations",
+					"Every [22] tiles with this terrain will receive a major deposit of a strategic resource."]
+	},
+	{
+		"name": "Forest",
+		"type": "TerrainFeature",
+		"production": 1,
+		"food": 1,
+		"movementCost": 2,
+		"overrideStats": true,
+		"unbuildable": true,
+		"defenceBonus": 0.25,
+		"occursOn": ["Tundra","Plains","Grassland","Hill","Flowerland","Autumnland","Rockland","Ancientland"],
+		"uniques": ["Rough terrain", "Vegetation",
+					"Provides a one-time bonus of [+30 Production] to the closest city when cut down <(modified by game speed)>",
+					"Blocks line-of-sight from tiles at same elevation",
+					"[25]% Chance to be destroyed by nukes",
+					"A Region is formed with at least [30]% [Forest] tiles, with priority [3]",
+					"A Region is formed with at least [35]% [Forest] tiles and [Jungle] tiles, with priority [3]",
+					"A Region can not contain more [Jungle] tiles than [Forest] tiles",
+					"Considered [Desirable] when determining start locations",
+					"Considered [Production] when determining start locations",
+					"Considered [Food] when determining start locations <in [Forest] Regions>",
+					"Considered [Food] when determining start locations <in [Tundra] Regions>",
+					"Every [39] tiles with this terrain will receive a major deposit of a strategic resource."],
+		"civilopediaText": [{"text":"A Camp can be built here without cutting it down", "link":"Improvement/Camp"}]
+	}
 ]
