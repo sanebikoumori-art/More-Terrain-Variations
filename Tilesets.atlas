@@ -45,6 +45,13 @@ TileSets/FantasyHex/Tiles/Rockforest
   orig: 32, 36
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Tiles/Rockjungle
+  rotate: false
+  xy: 96, 72
+  size: 32, 36
+  orig: 32, 36
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Tiles/Ancientland
   rotate: false
   xy: 128, 8
@@ -59,6 +66,13 @@ TileSets/FantasyHex/Tiles/Ancientforest
   orig: 32, 36
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Tiles/Ancientjungle
+  rotate: false
+  xy: 128, 72
+  size: 32, 36
+  orig: 32, 36
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Tiles/Aquarium
   rotate: false
   xy: 160, 8
@@ -69,6 +83,13 @@ TileSets/FantasyHex/Tiles/Aquarium
 TileSets/FantasyHex/Tiles/Kelpforest
   rotate: false
   xy: 160, 36
+  size: 32, 36
+  orig: 32, 36
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Coraljungle
+  rotate: false
+  xy: 160, 72
   size: 32, 36
   orig: 32, 36
   offset: 0, 0
