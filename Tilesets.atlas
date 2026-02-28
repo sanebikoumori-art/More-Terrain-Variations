@@ -94,3 +94,10 @@ TileSets/FantasyHex/Tiles/Coraljungle
   orig: 32, 36
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Tiles/Abyss
+  rotate: false
+  xy: 192, 8
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
