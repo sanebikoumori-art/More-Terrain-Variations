@@ -10,7 +10,7 @@ TileSets/FantasyHex/Tiles/Flowerland
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Flowerland+Forest
+TileSets/FantasyHex/Tiles/FlowerlandForest
   rotate: false
   xy: 32, 36
   size: 32, 36
