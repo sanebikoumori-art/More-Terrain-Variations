@@ -10,7 +10,7 @@ TileSets/FantasyHex/Tiles/Flowerland
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/FlowerlandForest
+TileSets/FantasyHex/Tiles/Floweringforest
   rotate: false
   xy: 32, 36
   size: 32, 36
@@ -24,11 +24,25 @@ TileSets/FantasyHex/Tiles/Autumnland
   orig: 32, 28
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Tiles/Autumnforest
+  rotate: false
+  xy: 64, 36
+  size: 32, 36
+  orig: 32, 36
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Tiles/Rockland
   rotate: false
   xy: 96, 8
   size: 32, 28
   orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Rockforest
+  rotate: false
+  xy: 96, 36
+  size: 32, 36
+  orig: 32, 36
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Ancientland
@@ -38,10 +52,24 @@ TileSets/FantasyHex/Tiles/Ancientland
   orig: 32, 28
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Tiles/Ancientforest
+  rotate: false
+  xy: 128, 36
+  size: 32, 36
+  orig: 32, 36
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Tiles/Aquarium
   rotate: false
   xy: 160, 8
   size: 32, 28
   orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Kelpforest
+  rotate: false
+  xy: 160, 36
+  size: 32, 36
+  orig: 32, 36
   offset: 0, 0
   index: -1
