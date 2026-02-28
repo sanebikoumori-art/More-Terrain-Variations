@@ -7,5 +7,8 @@
       "Rockland+Forest": ["Rockland","Rockforest"],
       "Ancientland+Forest": ["Ancientland","Ancientforest"],
       "Aquarium+Forest": ["Aquarium","Kelpforest"],
+      "Rockland+Jungle": ["Rockland","Rockjungle"],
+      "Ancientland+Jungle": ["Ancientland","Ancientjungle"],
+      "Aquarium+Jungle": ["Aquarium","Coraljungle"],
     }
 }
