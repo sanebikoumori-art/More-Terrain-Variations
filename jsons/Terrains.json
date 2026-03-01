@@ -159,7 +159,10 @@
 		"gold": 1,
 		"movementCost": 1,
 		"RGB": [43, 87, 151],
-		"uniques":["Becomes [Ocean] when adjacent to [Coast]","Becomes [Abyss] when adjacent to [Ocean]"]
+		"uniques":["Becomes [Ocean] when adjacent to [Coast]",
+			//"Becomes [Abyss] when adjacent to [Ocean]",
+			"A Region is formed with at least [50]% [Ocean] tiles and [Aquarium] tiles, with priority [1]",
+		]
 	},
 	{
 		"name": "Abyss",
