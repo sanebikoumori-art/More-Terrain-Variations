@@ -8,7 +8,8 @@
         "uniques": [
 			"Occurs at temperature between [0.6] and [0.8] and humidity between [0.5] and [0.8]",
 			"Occurs at temperature between [0.5] and [0.6] and humidity between [0.5] and [0.8]",
-			"Occurs at temperature between [0.3] and [0.5] and humidity between [0.5] and [0.8]"
+			"Occurs at temperature between [0.3] and [0.5] and humidity between [0.5] and [0.8]",
+			"[+3] to Fertility for Map Generation",
 		]
     },
     {
@@ -22,6 +23,12 @@
 			"Occurs at temperature between [-0.2] and [0.2] and humidity between [0.2] and [0.4]",
 			"Occurs at temperature between [-0.3] and [0.3] and humidity between [0.4] and [0.6]",
 			"Occurs at temperature between [-0.4] and [0.4] and humidity between [0.5] and [0.8]",
+			"Occurs at temperature between [-0.5] and [-0.3] and humidity between [0.3] and [0.5]",
+            "Occurs at temperature between [-0.4] and [-0.3] and humidity between [0.1] and [0.3]",
+			"[+2] to Fertility for Map Generation",
+			"Considered [Food] when determining start locations <in [Autumnland] Regions>",
+            "Considered [Desirable] when determining start locations <in [Autumnland] Regions>",
+			"Becomes [Tundra] when adjacent to [Snow]",
 		]
     },
     {
@@ -38,7 +45,8 @@
 			"Occurs at temperature between [-0.9] and [-0.6] and humidity between [0.1] and [0.3]",
 			"Occurs at temperature between [-0.5] and [-0.4] and humidity between [0.1] and [0.2]",
 			"Occurs at temperature between [-0.5] and [-0.4] and humidity between [0.2] and [0.4]",
-			"Occurs at temperature between [-0.8] and [-0.6] and humidity between [0.3] and [0.5]"
+			"Occurs at temperature between [-0.8] and [-0.6] and humidity between [0.3] and [0.5]",
+			"A Region is formed with at least [15]% [Rockland] tiles and [Mountain] tiles, with priority [1]",
 		]
     },
     {
@@ -51,7 +59,8 @@
 			"Occurs at temperature between [0.3] and [0.4] and humidity between [0.2] and [0.4]",
 			"Occurs at temperature between [0.5] and [0.7] and humidity between [0.4] and [0.5]",
 			"Occurs at temperature between [0.4] and [0.5] and humidity between [0.5] and [0.6]",
-			"Occurs at temperature between [0.3] and [0.5] and humidity between [0.6] and [0.7]"
+			"Occurs at temperature between [0.3] and [0.5] and humidity between [0.6] and [0.7]",
+			"[+3] to Fertility for Map Generation",
 		]
 	},
 	{
@@ -67,7 +76,9 @@
 			"Occurs at temperature between [-0.2] and [0.2] and humidity between [0.6] and [0.7]",
 			"Occurs at temperature between [-0.3] and [0.3] and humidity between [0.7] and [0.8]",
 			"Occurs at temperature between [-0.4] and [0.4] and humidity between [0.7] and [0.8]",
-			"Occurs at temperature between [-0.4] and [-0.1] and humidity between [0.8] and [0.9]"
+			"Occurs at temperature between [-0.4] and [-0.1] and humidity between [0.8] and [0.9]",
+			"A Region is formed with at least [30]% [Aquarium] tiles and [Coast] tiles, with priority [1]",
+			"[+2] to Fertility for Map Generation",
 		]
 	},
 	//feature
@@ -113,6 +124,7 @@
 					"Considered [Production] when determining start locations",
 					"Considered [Food] when determining start locations <in [Forest] Regions>",
 					"Considered [Food] when determining start locations <in [Tundra] Regions>",
+					"Considered [Food] when determining start locations <in [Autumnland] Regions>",
 					"Every [39] tiles with this terrain will receive a major deposit of a strategic resource."],
 		"civilopediaText": [{"text":"A Camp can be built here without cutting it down", "link":"Improvement/Camp"}]
 	},
