@@ -26,6 +26,7 @@
 			"Occurs at temperature between [-0.5] and [-0.3] and humidity between [0.3] and [0.5]",
             "Occurs at temperature between [-0.4] and [-0.3] and humidity between [0.1] and [0.3]",
 			"[+2] to Fertility for Map Generation",
+			"A Region is formed with at least [75]% [Autumnland] tiles, with priority [1]",
 			"Considered [Food] when determining start locations <in [Autumnland] Regions>",
             "Considered [Desirable] when determining start locations <in [Autumnland] Regions>",
 			"Becomes [Tundra] when adjacent to [Snow]",
