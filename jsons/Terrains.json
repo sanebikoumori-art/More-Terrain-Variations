@@ -160,8 +160,7 @@
 		"movementCost": 1,
 		"RGB": [43, 87, 151],
 		"uniques":["Becomes [Ocean] when adjacent to [Coast]",
-			//"Becomes [Abyss] when adjacent to [Ocean]",
-			"A Region is formed with at least [50]% [Ocean] tiles and [Aquarium] tiles, with priority [1]",
+			"Becomes [Abyss] when adjacent to [Ocean]",
 		]
 	},
 	{
@@ -169,6 +168,26 @@
 		"type": "Water",
 		"gold": 2,
 		"movementCost": 1,
-		"RGB": [6, 38, 85]
+		"RGB": [6, 38, 85],
+		"uniques":["Becomes [Ocean] when adjacent to [Ocean]"]
+	},
+	//rework
+	{
+		"name": "Tundra",
+		"type": "Land",
+		"food": 1,
+		"movementCost": 1,
+		"RGB": [124, 62, 57],
+		"uniques": ["Occurs at temperature between [-0.9] and [-0.6] and humidity between [0.8] and [1]",
+            "Occurs at temperature between [-0.8] and [-0.5] and humidity between [0.6] and [0.8]",
+            "Occurs at temperature between [-0.7] and [-0.4] and humidity between [0.4] and [0.6]",
+            "Occurs at temperature between [-0.6] and [-0.4] and humidity between [0.2] and [0.4]",
+            "Occurs at temperature between [-0.5] and [-0.4] and humidity between [0] and [0.2]",
+            "[+2] to Fertility for Map Generation",
+            "A Region is formed with at least [30]% [Tundra] tiles and [Snow] tiles, with priority [1]",
+            "Considered [Food] when determining start locations <in [Tundra] Regions>",
+            "Considered [Desirable] when determining start locations <in [Tundra] Regions>",
+            "Becomes [Autumnland] when adjacent to [River]",
+            "Every [16] tiles with this terrain will receive a major deposit of a strategic resource."]
 	}
 ]
