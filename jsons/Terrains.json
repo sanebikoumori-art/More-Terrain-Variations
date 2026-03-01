@@ -161,7 +161,7 @@
 		"movementCost": 1,
 		"RGB": [43, 87, 151],
 		"uniques":["Becomes [Ocean] when adjacent to [Coast]",
-			"Becomes [Ocean] when adjacent to [Ocean]",
+			"Becomes [Forest] when adjacent to [Ocean]",
 			"Becomes [Abyss] when adjacent to [Ocean]",
 		]
 	},
@@ -170,8 +170,7 @@
 		"type": "Water",
 		"gold": 2,
 		"movementCost": 1,
-		"RGB": [6, 38, 85],
-		"uniques":["Becomes [Ocean] when adjacent to [Ocean]"]
+		"RGB": [6, 38, 85]
 	},
 	//rework
 	{
