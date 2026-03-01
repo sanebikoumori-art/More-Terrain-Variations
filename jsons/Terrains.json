@@ -161,8 +161,7 @@
 		"movementCost": 1,
 		"RGB": [43, 87, 151],
 		"uniques":["Becomes [Ocean] when adjacent to [Coast]",
-			"Becomes [Forest] when adjacent to [Ocean]",
-			"Becomes [Abyss] when adjacent to [Ocean]",
+			"Becomes [Abyss] when adjacent to [Ocean] <with [50]% chances>",
 		]
 	},
 	{
