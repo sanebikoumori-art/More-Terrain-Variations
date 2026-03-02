@@ -79,6 +79,7 @@
 			"Occurs at temperature between [-0.4] and [0.4] and humidity between [0.7] and [0.8]",
 			"Occurs at temperature between [-0.4] and [-0.1] and humidity between [0.8] and [0.9]",
 			"A Region is formed with at least [30]% [Aquarium] tiles and [Coast] tiles, with priority [1]",
+			"Occurs in groups of [7] to [14] tiles",
 			"[+2] to Fertility for Map Generation",
 		]
 	},
