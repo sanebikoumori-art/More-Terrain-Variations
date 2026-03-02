@@ -27,7 +27,7 @@
             "Occurs at temperature between [-0.4] and [-0.3] and humidity between [0.1] and [0.3]",
 			"[+4] to Fertility for Map Generation",
 			"Occurs on latitudes from [0] to [50] percent of distance equator to pole",
-			"A Region is formed with at least [45]% [Autumnland] tiles, with priority [6]",
+			"A Region is formed with at least [32]% [Autumnland] tiles, with priority [6]",
 			"Considered [Food] when determining start locations <in [Autumnland] Regions>",
             "Considered [Desirable] when determining start locations <in [Autumnland] Regions>",
 			"Becomes [Tundra] when adjacent to [Snow]",
@@ -73,6 +73,7 @@
 		"movementCost": 1,
         "RGB": [136, 190, 204],
         "uniques": [
+			"Occurs in groups of [7] to [14] tiles",
 			"Occurs at temperature between [-0.1] and [0.2] and humidity between [0.7] and [0.9]",
 			"Occurs at temperature between [-0.1] and [0.4] and humidity between [0.6] and [0.7]",
 			"Occurs at temperature between [-0.1] and [0.4] and humidity between [0.6] and [0.7]",
@@ -80,8 +81,7 @@
 			"Occurs at temperature between [-0.3] and [0.3] and humidity between [0.7] and [0.8]",
 			"Occurs at temperature between [-0.4] and [0.4] and humidity between [0.7] and [0.8]",
 			"Occurs at temperature between [-0.4] and [-0.1] and humidity between [0.8] and [0.9]",
-			"A Region is formed with at least [30]% [Aquarium] tiles and [Coast] tiles, with priority [6]",
-			"Occurs in groups of [7] to [14] tiles",
+			"A Region is formed with at least [15]% [Aquarium] tiles and [Coast] tiles, with priority [3]",
 			"[+2] to Fertility for Map Generation",
 		]
 	},
@@ -97,7 +97,7 @@
         "uniques": [
 			"Rare Terrain",
 			"Occurs at temperature between [-0.4] and [-0.4] and humidity between [0.3] and [0.3]",
-			"A Region is formed with at least [60]% [Camelot] tiles, with priority [1]",
+			"A Region is formed with at least [5]% [Camelot] tiles, with priority [1]",
 			"Always Fertility [1] for Map Generation",
 			"[12] Strength for cities built on this terrain",
 		]
@@ -112,7 +112,7 @@
         "uniques": [
 			"Rare Terrain",
 			"Occurs at temperature between [0.4] and [0.4] and humidity between [0.3] and [0.3]",
-			"A Region is formed with at least [60]% [Eternaland] tiles, with priority [1]",
+			"A Region is formed with at least [5]% [Eternaland] tiles, with priority [1]",
 			"Always Fertility [1] for Map Generation",
 		]
 	},
