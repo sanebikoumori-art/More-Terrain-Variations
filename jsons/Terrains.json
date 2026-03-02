@@ -23,11 +23,8 @@
 		"movementCost": 1,
         "RGB": [249, 23, 32],
         "uniques": [
-			"Occurs at temperature between [-0.2] and [0.2] and humidity between [0.2] and [0.4]",
-			"Occurs at temperature between [-0.3] and [0.3] and humidity between [0.4] and [0.6]",
-			"Occurs at temperature between [-0.4] and [0.4] and humidity between [0.5] and [0.8]",
-			"Occurs at temperature between [-0.5] and [-0.3] and humidity between [0.3] and [0.5]",
-            "Occurs at temperature between [-0.4] and [-0.3] and humidity between [0.1] and [0.3]",
+			"Occurs at temperature between [-0.2] and [0.3] and humidity between [0.4] and [0.8]",
+			"Occurs at temperature between [-0.5] and [-0.2] and humidity between [0.2] and [0.8]",
 			"[+4] to Fertility for Map Generation",
 			"Occurs on latitudes from [0] to [50] percent of distance equator to pole",
 			"A Region is formed with at least [32]% [Autumnland] tiles, with priority [6]",
