@@ -10,6 +10,9 @@
 			"Occurs at temperature between [0.5] and [0.6] and humidity between [0.5] and [0.8]",
 			"Occurs at temperature between [0.3] and [0.5] and humidity between [0.5] and [0.8]",
 			"[+3] to Fertility for Map Generation",
+			"A Region is formed with at least [15]% [Flowerland] tiles, with priority [5]",
+			"Considered [Desirable] when determining start locations <in [Flowerland] Regions>",
+			"Considered [Food] when determining start locations <in [Flowerland] Regions>",
 		]
     },
     {
@@ -31,6 +34,7 @@
 			"Considered [Food] when determining start locations <in [Autumnland] Regions>",
             "Considered [Desirable] when determining start locations <in [Autumnland] Regions>",
 			"Becomes [Tundra] when adjacent to [Snow]",
+			"Becomes [Plains] when adjacent to [Desert]",
 		]
     },
     {
@@ -50,6 +54,7 @@
 			"A Region is formed with at least [30]% [Rockland] tiles, with priority [5]",
 			"[4] Strength for cities built on this terrain",
 			"Has an elevation of [1] for visibility calculations",
+			"Considered [Undesirable] when determining start locations <in [Rockland] Regions>",
 		]
     },
     {
@@ -59,11 +64,12 @@
 		"movementCost": 1,
         "RGB": [50, 140, 114],
         "uniques": [
-			"Occurs at temperature between [0.3] and [0.4] and humidity between [0.2] and [0.4]",
+			"Occurs at temperature between [0.3] and [0.5] and humidity between [0.2] and [0.7]",
 			"Occurs at temperature between [0.5] and [0.7] and humidity between [0.4] and [0.5]",
-			"Occurs at temperature between [0.4] and [0.5] and humidity between [0.5] and [0.6]",
-			"Occurs at temperature between [0.3] and [0.5] and humidity between [0.6] and [0.7]",
 			"[+2] to Fertility for Map Generation",
+			"A Region is formed with at least [15]% [Ancientland] tiles, with priority [3]",
+			"Considered [Desirable] when determining start locations <in [Ancientland] Regions>",
+			"Considered [Food] when determining start locations <in [Ancientland] Regions>",
 		]
 	},
 	{
@@ -77,6 +83,8 @@
 			"Occurs at temperature between [0.5] and [1] and humidity between [0.6] and [1]",
 			"A Region is formed with at least [15]% [Aquarium] tiles and [Coast] tiles, with priority [3]",
 			"[+2] to Fertility for Map Generation",
+			"Considered [Desirable] when determining start locations <in [Aquarium] Regions>",
+			"Considered [Food] when determining start locations <in [Aquarium] Regions>",
 		]
 	},
 	//rare lands
@@ -95,6 +103,8 @@
 			"A Region is formed with at least [5]% [Camelot] tiles, with priority [1]",
 			"Always Fertility [1] for Map Generation",
 			"[12] Strength for cities built on this terrain",
+			"Considered [Desirable] when determining start locations <in [Camelot] Regions>",
+			"Considered [Food] when determining start locations <in [Camelot] Regions>",
 		]
 	},
 	{
@@ -107,8 +117,9 @@
         "uniques": [
 			"Rare Terrain",
 			"Occurs at temperature between [-1] and [-0.9] and humidity between [0] and [1]",
-			"A Region is formed with at least [5]% [Eternaland] tiles, with priority [1]",
+			"A Region is formed with at least [20]% [Eternaland] tiles, with priority [1]",
 			"Always Fertility [1] for Map Generation",
+			"Considered [Desirable] when determining start locations <in [Eternaland] Regions>",
 		]
 	},
 	//feature
