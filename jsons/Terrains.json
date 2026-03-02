@@ -199,17 +199,6 @@
 		"movementCost": 1,
 		"RGB": [6, 38, 85]
 	},
-	{
-		"name": "Tropical Ocean",
-		"type": "Water",
-		"gold": 1,
-		"food": 1,
-		"movementCost":1,
-		"RGB":[43,87,151],
-		"uniques":[
-			"Occurs at temperature between [0.5] and [1] and humidity between [0] and [1]"
-		]
-	}
 	//rework
 	{
 		"name": "Tundra",
@@ -228,5 +217,23 @@
             "Considered [Desirable] when determining start locations <in [Tundra] Regions>",
             "Becomes [Autumnland] when adjacent to [River]",
             "Every [16] tiles with this terrain will receive a major deposit of a strategic resource."]
+	},
+	//special
+	{
+		"name": "Void",
+		"type": "Land",
+		"movementCost":1,
+		"RGB":[0,0,0],
+		"impassable": true,
+		"unbuildable": true,
+		"uniques":[
+			"Never receives any resources",
+			"Tile provides yield without assigned population",
+			"Has an elevation of [100] for visibility calculations",
+			"Units ending their turn on this terrain take [100] damage",
+			"Considered [Undesirable] when determining start locations",
+			"Doesn't generate naturally",
+			"Will not be displayed in Civilopedia"
+		]
 	}
 ]
