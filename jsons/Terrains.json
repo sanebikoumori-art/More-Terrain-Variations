@@ -95,7 +95,6 @@
         "RGB": [181,91,248],
         "uniques": [
 			"Rare Terrain",
-			"Neighboring tiles will convert to [Camelot]",
 			"Occurs at temperature between [0.3] and [0.4] and humidity between [0.6] and [0.7]",
 			"A Region is formed with at least [5]% [Camelot] tiles, with priority [1]",
 			"Always Fertility [1] for Map Generation",
