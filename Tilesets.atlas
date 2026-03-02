@@ -178,3 +178,10 @@ TileSets/FantasyHex/Tiles/Eternafarm
   orig: 32, 36
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Tiles/Lumber
+  rotate: false
+  xy: 32, 216
+  size: 32, 36
+  orig: 32, 36
+  offset: 0, 0
+  index: -1
