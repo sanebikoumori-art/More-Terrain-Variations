@@ -16,6 +16,7 @@
         //farms
         "Flowerland+Farm": ["Flowerland","Floweringfarm"],
         "Autumnland+Farm": ["Autumnland","Autumnfarm"],
+        "Autumnland+Wheat+Farm": ["Autumnland","Autumnfarm","Wheat"],
         "Rockland+Farm": ["Rockland","Rockfarm"],
         "Ancientland+Farm": ["Ancientland","Ancientfarm"],
         "Aquarium+Farm": ["Aquarium","Kelpfarm"],
@@ -24,6 +25,7 @@
         //with hill
         "Flowerland+Hill+Farm": ["Flowerland","Floweringfarm","Hill"],
         "Autumnland+Hill+Farm": ["Autumnland","Autumnfarm","Hill"],
+        "Autumnland+Hill+Wheat+Farm": ["Autumnland","Autumnfarm","Hill","Wheat"],
         "Rockland+Hill+Farm": ["Rockland","Rockfarm","Hill"],
         "Ancientland+Hill+Farm": ["Ancientland","Ancientfarm","Hill"],
         "Aquarium+Hill+Farm": ["Aquarium","Kelpfarm","Hill"],
