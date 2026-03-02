@@ -1,7 +1,7 @@
 [
   {
 		"name": "Farm",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Flood plains","Flowerland","Autumnland","Ancientland","Aquarium"],
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Flood plains","Flowerland","Autumnland","Ancientland","Aquarium","Camelot","Eternaland"],
 		"food": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Agriculture",
