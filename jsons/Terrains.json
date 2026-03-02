@@ -34,7 +34,7 @@
 			"Considered [Food] when determining start locations <in [Autumnland] Regions>",
             "Considered [Desirable] when determining start locations <in [Autumnland] Regions>",
 			"Becomes [Tundra] when adjacent to [Snow]",
-			"Becomes [Plains] when adjacent to [Desert]",
+			"Becomes [Forest] when adjacent to [Autumnland]",
 		]
     },
     {
