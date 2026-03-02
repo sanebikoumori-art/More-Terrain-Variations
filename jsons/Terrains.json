@@ -82,6 +82,36 @@
 			"[+2] to Fertility for Map Generation",
 		]
 	},
+	//rare lands
+	{
+		"name": "Camerot",
+		"type": "Land",
+		"food": 2,
+		"culture": 1,
+		"science": 1,
+		"movementCost": 1,
+        "RGB": [181,91,248],
+        "uniques": [
+			"Rare Terrain",
+			"Occurs at temperature between [-0.4] and [-0.4] and humidity between [0.3] and [0.3]",
+			"A Region is formed with at least [60]% [Camerot] tiles and [Coast] tiles, with priority [1]",
+			"[+1] to Fertility for Map Generation",
+		]
+	},
+	{
+		"name": "Eternaland",
+		"type": "Land",
+		"food": 2,
+		"faith":2,
+		"movementCost": 1,
+        "RGB": [0, 16, 29],
+        "uniques": [
+			"Rare Terrain",
+			"Occurs at temperature between [0.4] and [0.4] and humidity between [0.3] and [0.3]",
+			"A Region is formed with at least [60]% [Eternaland] tiles, with priority [1]",
+			"[+1] to Fertility for Map Generation",
+		]
+	},
 	//feature
 	{
 		"name": "Hill",
@@ -91,7 +121,7 @@
 		"overrideStats": true,
 		"defenceBonus": 0.25,
 		"RGB": [105,125,72],
-		"occursOn": ["Tundra","Plains","Grassland","Desert","Snow","Flowerland","Autumnland","Rockland","Ancientland"],
+		"occursOn": ["Tundra","Plains","Grassland","Desert","Snow","Flowerland","Autumnland","Rockland","Ancientland","Camelot","Eternaland"],
 		"uniques": ["Rough terrain",
 					"[+5] Strength for cities built on this terrain",
 					"Has an elevation of [1] for visibility calculations",
@@ -113,7 +143,7 @@
 		"overrideStats": true,
 		"unbuildable": true,
 		"defenceBonus": 0.25,
-		"occursOn": ["Tundra","Plains","Grassland","Hill","Flowerland","Autumnland","Rockland","Ancientland","Aquarium"],
+		"occursOn": ["Tundra","Plains","Grassland","Hill","Flowerland","Autumnland","Rockland","Ancientland","Aquarium","Camelot","Eternaland"],
 		"uniques": ["Rough terrain", "Vegetation",
 					"Provides a one-time bonus of [+30 Production] to the closest city when cut down <(modified by game speed)>",
 					"Blocks line-of-sight from tiles at same elevation",
