@@ -199,6 +199,17 @@
 		"movementCost": 1,
 		"RGB": [6, 38, 85]
 	},
+	{
+		"name": "Tropical Ocean",
+		"type": "Water",
+		"gold": 1,
+		"food": 1,
+		"movementCost":1,
+		"RGB":[43,87,151],
+		"uniques":[
+			"Occurs at temperature between [0.5] and [1] and humidity between [0] and [1]"
+		]
+	}
 	//rework
 	{
 		"name": "Tundra",
