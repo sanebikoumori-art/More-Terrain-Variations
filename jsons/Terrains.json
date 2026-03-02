@@ -48,6 +48,8 @@
 			"Occurs at temperature between [-0.5] and [-0.4] and humidity between [0.2] and [0.4]",
 			"Occurs at temperature between [-0.8] and [-0.6] and humidity between [0.3] and [0.5]",
 			"A Region is formed with at least [30]% [Rockland] tiles, with priority [5]",
+			"[4] Strength for cities built on this terrain",
+			"Has an elevation of [1] for visibility calculations",
 		]
     },
     {
@@ -78,7 +80,7 @@
 			"Occurs at temperature between [-0.3] and [0.3] and humidity between [0.7] and [0.8]",
 			"Occurs at temperature between [-0.4] and [0.4] and humidity between [0.7] and [0.8]",
 			"Occurs at temperature between [-0.4] and [-0.1] and humidity between [0.8] and [0.9]",
-			"A Region is formed with at least [30]% [Aquarium] tiles and [Coast] tiles, with priority [1]",
+			"A Region is formed with at least [30]% [Aquarium] tiles and [Coast] tiles, with priority [6]",
 			"Occurs in groups of [7] to [14] tiles",
 			"[+2] to Fertility for Map Generation",
 		]
@@ -96,7 +98,8 @@
 			"Rare Terrain",
 			"Occurs at temperature between [-0.4] and [-0.4] and humidity between [0.3] and [0.3]",
 			"A Region is formed with at least [60]% [Camelot] tiles, with priority [1]",
-			"[+1] to Fertility for Map Generation",
+			"Always Fertility [1] for Map Generation",
+			"[12] Strength for cities built on this terrain",
 		]
 	},
 	{
@@ -110,7 +113,7 @@
 			"Rare Terrain",
 			"Occurs at temperature between [0.4] and [0.4] and humidity between [0.3] and [0.3]",
 			"A Region is formed with at least [60]% [Eternaland] tiles, with priority [1]",
-			"[+1] to Fertility for Map Generation",
+			"Always Fertility [1] for Map Generation",
 		]
 	},
 	//feature
