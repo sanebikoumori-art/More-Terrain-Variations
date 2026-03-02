@@ -201,7 +201,7 @@
 		"name": "Horses",
 		"resourceType": "Strategic",
 		"revealedBy": "Animal Husbandry",
-		"terrainsCanBeFoundOn": ["Plains","Grassland","Hill","Flowerland","Camerot"], // Hill only if plains or grassland
+		"terrainsCanBeFoundOn": ["Plains","Grassland","Hill","Flowerland","Camelot"], // Hill only if plains or grassland
 		"production": 1,
 		"improvement": "Pasture",
 		"improvementStats": {"production": 1},
