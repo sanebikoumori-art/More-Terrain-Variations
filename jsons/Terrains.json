@@ -73,7 +73,7 @@
 		"movementCost": 1,
         "RGB": [136, 190, 204],
         "uniques": [
-			"Occurs in groups of [1] to [7] tiles",//it is not working...
+			"Occurs in groups of [7] to [14] tiles",//it is not working...
 			"Occurs at temperature between [0.5] and [1] and humidity between [0.6] and [1]",
 			"A Region is formed with at least [15]% [Aquarium] tiles and [Coast] tiles, with priority [3]",
 			"[+2] to Fertility for Map Generation",
