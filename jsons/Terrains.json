@@ -111,7 +111,7 @@
         "RGB": [0, 16, 29],
         "uniques": [
 			"Rare Terrain",
-			"Occurs at temperature between [-0.45] and [-0.5] and humidity between [0] and [1]",
+			"Occurs at temperature between [-0.8] and [-0.5] and humidity between [0] and [1]",
 			"A Region is formed with at least [5]% [Eternaland] tiles, with priority [1]",
 			"Always Fertility [1] for Map Generation",
 		]
